@@ -288,7 +288,7 @@ function install_homebridge_garage_door_opener_plugin() {
 	if execute_step ; then
 		echo "$ npm install -g homebridge-rasppi-gpio-garagedoor"
 		echo ""
-		npm install -g homebridge-rasppi-gpio-garagedoor
+		npm install -g --unsafe-perm homebridge-garage-gate-opener
 	fi
 }
 
